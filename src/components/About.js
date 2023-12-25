@@ -5,7 +5,6 @@ const About = () => {
         <div className="container about">
             <p>PokeSearch - русская версия вебсайта для покупки и продажи карточек Покемонов.</p>
             <p>Мы осуществляем доставку коллекционных карточек по всему миру!</p>
-            <p>Стоимось доставки включена в цену каждой карточки</p>
             <p>The <b>Denver</b> office is located at </p>
             <img className="waving" src='https://www.pngmart.com/files/22/Mew-Pokemon-PNG-Transparent-Picture.png' />
             <div className="address">

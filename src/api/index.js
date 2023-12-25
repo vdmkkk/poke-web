@@ -1,4 +1,4 @@
-const {REACT_APP_BASE_URL = 'https://poke-search.ru/api' } = process.env
+const {REACT_APP_BASE_URL = 'https://localhost:3001/api' } = process.env
 const BASE_URL = REACT_APP_BASE_URL
 export async function registerUser(username, firstName, lastName, password, emailAddress, phoneNumber = null) {
     try{

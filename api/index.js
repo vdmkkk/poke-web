@@ -5,6 +5,7 @@ const usersRouter = require("./users");
 const productRouter = require('./products');
 const cartRouter = require("./cart");
 const orderRouter = require('./orders')
+const kassaRouter = require('./notif')
 const stripe = require('stripe')("sk_test_51MRQaELdzpxpOBV5FE22w5E04OReD0DNDCGPQsG58NFNPDnMeBbnJ2jmbURFeJCfknsozUp9WlQHudT5OxZJhpt3006UDgSsyh")
 
 const {getUserById} = require('../db/users')
@@ -12,6 +13,9 @@ const {getUserById} = require('../db/users')
 const calculateOrderAmount = (items) => {
     return 1400;
   };
+
+
+
   
 
 router.use(async (req, res, next) => {
@@ -51,5 +55,6 @@ router.use("/users", usersRouter);
 router.use("/cards", productRouter)
 router.use("/cart", cartRouter)
 router.use("/orders", orderRouter)
+router.use('/', kassaRouter)
 module.exports = router;
 

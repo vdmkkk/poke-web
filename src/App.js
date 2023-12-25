@@ -18,6 +18,8 @@ import {
   Account,
   OrderHistory,
 } from "./components";
+import Success from "./components/Success";
+import Fail from "./components/Fail";
 
 const App = () => {
   //------------------- State --------------------
@@ -68,6 +70,8 @@ const App = () => {
           element={<Stripe token={token} />}
         />
         <Route path='/orders' element={<OrderHistory token={token} />} />
+        <Route path='/success' element={<Success token={token} />}/>
+        <Route path='/fail' element={<Fail token={token} />}/>
         {user.isAdmin ? (
           <Route path='/admin' element={<Admin user={user} token={token} />} />
         ) : null}

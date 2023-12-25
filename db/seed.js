@@ -394,18 +394,6 @@ const seedProduct = [
         img_url: "https://i.ebayimg.com/images/g/kVMAAOSweSxe~dOQ/s-l640.jpg"
     },
     {
-        id: 29,
-        pokedexId: 577,
-        name: "Solosis",
-        cost: 3500.0,
-        type1: "psychic",
-        type2: null,
-        condition: 1,
-        rarity: 1,
-        quantity: 1,
-        img_url: "https://i.ebayimg.com/images/g/pLAAAOSwQRVc4Wsn/s-l640.jpg"
-    },
-    {
         id: 7,
         pokedexId: 653,
         name: "Fennekin",
@@ -428,18 +416,6 @@ const seedProduct = [
         rarity: 3,
         quantity: 77,
         img_url: "https://crystal-cdn4.crystalcommerce.com/photos/943064/073rh.jpg"
-    },
-    {
-        id: 32,
-        pokedexId: 643,
-        name: "Reshiram and Charizard GX",
-        cost: 1800.0,
-        type1: "dragon",
-        type2: "fire",
-        condition: 5,
-        rarity: 4,
-        quantity: 10,
-        img_url: "https://cdn.shopify.com/s/files/1/0256/4548/2036/products/image_942ad94b-f103-4b24-a2ea-6a820ea33867_530x@2x.jpg?v=1572422606"
     },
     {
         id: 26,
@@ -488,18 +464,6 @@ const seedProduct = [
         rarity: 1,
         quantity: 11,
         img_url: "https://cdn.shopify.com/s/files/1/1715/6019/products/Phantump_903da29c-911c-4ec7-8539-62aeecf416ac_1600x.jpg?v=1596635696"
-    },
-    {
-        id: 37,
-        pokedexId: 146,
-        name: "Moltres FX",
-        cost: 1145.0,
-        type1: "fire",
-        type2: "flying",
-        condition: 3,
-        rarity: 1,
-        quantity: 15,
-        img_url: "https://pm1.narvii.com/5806/e5e7d560784b076beafbec6b7c70c062a95ece95_hq.jpg"
     },
     {
         id: 25,

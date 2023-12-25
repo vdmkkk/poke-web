@@ -73,7 +73,7 @@ const CheckoutForm = ({token, cart}) => {
         </div>
         <div className='checkout-form'>
         <form onSubmit={handleSubmit}>
-            <PaymentElement />
+            {/* <PaymentElement /> */}
             <button className='checkout-button' onClick={handleBack}>Назад</button><br></br>
             <button className='checkout-button' disabled={!stripe}>Подтвердить</button> 
         </form>

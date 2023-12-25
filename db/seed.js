@@ -70,18 +70,6 @@ const seedProduct = [
         img_url: "https://www.cardsbybrammers.com.au/assets/full/rhxyb054.jpg?20180107041825"
     },
     {
-        id: 28,
-        pokedexId: 91,
-        name: "Cloyster",
-        cost: 15000.0,
-        type1: "water",
-        type2: "ice",
-        condition: 3,
-        rarity: 3,
-        quantity: 4,
-        img_url: "https://i.ebayimg.com/images/g/dPAAAOSw5CddJjY2/s-l640.jpg"
-    },
-    {
         id: 49,
         pokedexId: 52,
         name: "Meowth",

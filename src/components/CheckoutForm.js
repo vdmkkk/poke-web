@@ -42,6 +42,12 @@ const CheckoutForm = ({token, cart}) => {
             navigate('/orders')
         }
     }
+
+    const handleOrder = () => {
+        const shopId = 1
+        const nonce = Date.now()
+        
+    }
       useEffect(() => {
         setTotalCost((cart.totalCost * 1.08 + 4.99).toFixed(2))
       },[cart])
@@ -75,7 +81,7 @@ const CheckoutForm = ({token, cart}) => {
         <form onSubmit={handleSubmit}>
             {/* <PaymentElement /> */}
             <button className='checkout-button' onClick={handleBack}>Назад</button><br></br>
-            <button className='checkout-button' disabled={!stripe}>Подтвердить</button> 
+            <button className='checkout-button' onClick={handleOrder}>Подтвердить</button> 
         </form>
         </div></div>
     )

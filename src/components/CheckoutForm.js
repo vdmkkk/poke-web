@@ -49,7 +49,7 @@ const CheckoutForm = ({token, cart}) => {
         
     }
       useEffect(() => {
-        setTotalCost((cart.totalCost * 1.08 + 4.99).toFixed(2))
+        setTotalCost((cart.totalCost + 499).toFixed(2))
       },[cart])
     return (
         <div id='checkout-page'>
@@ -73,7 +73,7 @@ const CheckoutForm = ({token, cart}) => {
             </form>
             <h4>Сводка по заказу</h4>
             <p>Товары: {cart.totalCost}₽</p>
-            <p>Доставка: 4.99₽</p>
+            <p>Доставка: 499₽</p>
             {/* <p>Estimated Tax: ${(cart.totalCost * 0.08).toFixed(2)}</p> */}
             <p>Итого: {totalCost}₽</p>
         </div>

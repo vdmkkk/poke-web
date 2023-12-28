@@ -49,7 +49,7 @@ const CheckoutForm = ({token, cart}) => {
         
     }
       useEffect(() => {
-        setTotalCost((cart.totalCost + 499).toFixed(2))
+        setTotalCost((cart.totalCost + 499.0))
       },[cart])
     return (
         <div id='checkout-page'>
